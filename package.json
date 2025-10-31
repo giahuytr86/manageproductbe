@@ -1,0 +1,20 @@
+{
+  "name": "manageproduct-be-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config src/index.js dotenv_config_path=.env",
+    "startMock": "bash ./startMock.sh",
+    "stopMock": "bash ./stopMock.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "knex": "^3.1.0",
+    "pg": "^8.16.3"
+  }
+}
