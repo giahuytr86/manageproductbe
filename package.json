@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -r dotenv/config src/index.js dotenv_config_path=.env",
+    "dev:local": "nodemon -r dotenv/config src/index.js dotenv_config_path=.env.local",
+    "dev:prod": "nodemon -r dotenv/config src/index.js dotenv_config_path=.env.prod",
     "startMock": "bash ./startMock.sh",
     "stopMock": "bash ./stopMock.sh"
   },
